@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Cuando haya URL definitiva, crear sitemap.xml y agregar la línea:
+# Sitemap: https://URL-DEL-SITIO/sitemap.xml
