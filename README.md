@@ -40,13 +40,13 @@ y abrir la dirección que muestre.
 
 ## Cómo actualizar la URL del sitio
 
-Las metas con dirección absoluta (`canonical`, `og:url`, `og:image` y `twitter:image`, en `index.html`) usan un único valor provisorio:
+Las metas con dirección absoluta (`canonical`, `og:url`, `og:image` y `twitter:image`, en `index.html`) usan la dirección del sitio:
 
 ```
-https://REEMPLAZAR-URL-DEL-SITIO
+https://hilorojoartesanias.netlify.app
 ```
 
-Cuando se conozca la dirección definitiva (la de Netlify o un dominio propio), reemplazalo en un solo paso: en el editor, buscar y reemplazar todo `https://REEMPLAZAR-URL-DEL-SITIO` por la dirección, **sin barra final** (por ejemplo `https://mi-sitio.netlify.app`). Con la dirección definitiva, además:
+Si la dirección cambia (por ejemplo, al sumar un dominio propio), reemplazala en un solo paso: en el editor, buscar y reemplazar todo ese texto en `index.html` por la nueva dirección, **sin barra final**. Con la dirección definitiva, además:
 
 1. Crear `sitemap.xml` con la dirección de la página principal.
 2. Descomentar y completar la línea `Sitemap:` de `robots.txt`.
